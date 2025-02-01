@@ -1,3 +1,4 @@
+import FeatureProject from "./FeatureProject/FeatureProject";
 import Hero from "./Hero/Hero";
 
 const HomePage = () => {
@@ -5,7 +6,8 @@ const HomePage = () => {
         <div>
             <div className="bg-gray-100">
             <Hero />
-            <div className="border-b border-gray-200 my-10"></div>
+            <div className="border-b border-gray-200 my-5"></div>
+        <FeatureProject />
             </div>
         </div>
     );
